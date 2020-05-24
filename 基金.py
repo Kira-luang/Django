@@ -10,3 +10,4 @@ revalue = float(input('涨幅'))
 print(提取份额)
 
 print(提取份额 * (net_value + net_value * revalue))
+print('test1')

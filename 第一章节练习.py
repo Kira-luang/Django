@@ -81,3 +81,4 @@ for x in range(3, PRIMENUMBER, 2):
         list1.append(x)
 print((datetime.datetime.now() - start).total_seconds())
 print(count)
+print('test1')
