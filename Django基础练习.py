@@ -24,3 +24,39 @@ settings.py->在INSTALLED_APPS内加上App2
 在views添加回复函数
 urls.py导入include,增加路劲 -> re_path('^student', include('App2.url'))
 '''
+
+
+class Model:
+    '''主要针对数据库，也就是Model模块'''
+
+
+# 4.创建与连接数据库
+'''
+远程连接数据库
+右边的Database->'+'database resource->填配置信息
+Django自带数据库
+右键db.sqlite3->新建datasource->path为db.sqlite3->driver是SQLite
+'''
+
+# 5.ROM模型(创建表格)
+'''
+在models.py里建立类->python manage.py makemigrations->python manage.py migrate
+'''
+
+# 6.ORM数据模型:增
+'''
+student = Student()->创建实例
+student.name = 'kira'
+student.age = 10
+student.save()->提交到数据库
+'''
+
+# 7.ORM数据模型:查
+'''
+Student.object.all()
+'''
+
+
+class Template:
+    '''模板语言'''
+    pass
