@@ -25,6 +25,16 @@ settings.py->在INSTALLED_APPS内加上App2
 urls.py导入include,增加路劲 -> re_path('^student', include('App2.url'))
 '''
 
+# 4.文件使用介绍
+'''
+admin.py:后台管理模块
+apps.py:管理站点模型的声明文件
+models.py:对应数据库作映射(定义表对应的class)
+views.py:给对应URL作处理
+migrations:把对应数据库表的class暂时存储的地方(在sqlite做完测试,要换mysql时，可直接把class映射在mysql上)
+tests.py:代码测试模块
+settings.py:配置模块
+'''
 
 class Model:
     '''主要针对数据库，也就是Model模块'''
@@ -74,3 +84,9 @@ class Template:
 模板中:{% for x in name %}
         {{ x }}
 '''
+
+# 3.render原理简单了解
+'''
+render:先加载(读取)模板html->对模板语言(python编译)->最后HttpResponse返回
+'''
+

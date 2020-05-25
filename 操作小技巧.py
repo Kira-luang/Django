@@ -27,3 +27,8 @@ Alt + Enter
 '''
 操作一部分 + tab
 '''
+
+# 6.模板文件提示
+'''
+右键templates(某个文件)->标记目录为(templates as)
+'''
