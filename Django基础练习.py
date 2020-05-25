@@ -60,3 +60,17 @@ Student.object.all()
 class Template:
     '''模板语言'''
     pass
+
+
+# 1.占位(单个字符)
+'''
+在调用函数返回值的HttpResponse中，增加参数。例如:name='kira'
+模板中:{{ name }}
+'''
+
+# 2.for循环
+'''
+在调用函数返回值的HttpResponse中，增加参数。例如:name=[1, 3, 2]/{'a'=1, 'b'=2}
+模板中:{% for x in name %}
+        {{ x }}
+'''

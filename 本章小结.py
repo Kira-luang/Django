@@ -1,25 +1,27 @@
-# 1.创建与连接数据库
+# 1.ORM查
 '''
-远程连接数据库
-右边的Database->'+'database resource->填配置信息
-Django自带数据库
-右键db.sqlite3->新建datasource->path为db.sqlite3->driver是SQLite
-'''
-
-# 2.ROM模型(创建表格)
-'''
-在models.py里建立类->python manage.py makemigrations->python manage.py migrate
+1.查全部数据
+Student.objects.all()
+2.查/获取某个数据
+Student.objects.get()
 '''
 
-# 3.ORM数据模型:增
+# 2.ORM删,改
 '''
-student = Student()->创建实例
-student.name = 'kira'
-student.age = 10
-student.save()->提交到数据库
+都要先拿到对象
+obj = Student.objects.get(name='tom')
+然后才能进行删改
+obj.delete()/obj.name = 'Tom'
+对于对数据进行处理的操作都要保存才能同步到数据库
+obj.save()
 '''
 
-# 4.ORM数据模型:查
+# 3.模板语言:for
 '''
-Student.object.all()
+在调用函数返回值的HttpResponse中，增加参数。例如:name=[1, 3, 2]/{'a'=1, 'b'=2}
+模板中:{% for x in name %}
+        {{ x }}
+
+这里是传入从数据库匹配到的数据,格式为:[数据对象1(多个属性值组合的字典), 数据对象2(多个属性值组合的字典)]
+所以这里遍历之后,提取拿name属性
 '''
