@@ -1,25 +1,24 @@
-# 1.与mysql数据库进行连接
+# 1.get用法展开
 '''
-配置文件(settings.py)的DATABASES添加:
-'ENGINE': 'django.dbbackends.mysql',
-'NAME': 'test',
-'USER': 'kira',
-'PASSWORD': 'abcd12345',
-'HOST': '127.0.0.1',
-'PORT': '3306'
-Django自带的sqlite3注释掉
+Student.objects.get(name='kira')
+get不要传单参,要传以上方式
+get不一定要传入主键,条件限制到只能一个数据符合即可。
 '''
 
-# 2.pymysql进行伪装
+# 2.ForeignKey创建
 '''
-在settings.py所在目录的init.py上导入:
-import pymysql
-
-pymysql.install_as_MySQLdb()
+models.ForeignKey('类名', on_delete=models.CASCADE)
 '''
 
-# 3.映射到mysql
+# 3.正向查询
 '''
-跟sqlite3一样的操作
-python manage.py migrate
+student = Student.objects.get()->拿到实例
+student.id.item
+(外键字段)  所查询字段
+'''
+
+# 4.反向查询
+'''
+a = Class.objects.get()
+a.student_set.all()
 '''
