@@ -66,6 +66,63 @@ student.save()->提交到数据库
 Student.object.all()
 '''
 
+# 8.Django外键
+'''
+当外键是一对一时，必须添加on_delete，外键参考
+Aid = models.ForeignKey('一个外键类(外键表)', on_delete=models.CASCADE)
+外键(Aid)传入值的时候需要传入外键所在表的实例
+'''
+
+# 9.外键正反向查询
+'''
+假设Student外键是Class
+obj = Student.objects.get(name='kira')->都要先获得实例(字段)
+正向查询:
+obj.ForeignKey(字段).(class对应的某个字段)
+反向查询:
+obj.student_set.all()
+'''
+
+# 10.Django的field大全
+'''
+TextField:大字符串(长度大于4000)
+DecimalField:高精度数字(金融应用)
+BooleanField:True/False
+NullBooleanField:True/False/Null(可用于性别)
+DatatimeField:时间
+FileField/ImageField:把文件/图片进行编译存储到数据库(不推荐使用)
+外键Field定义:
+ForeignKey:一对多
+ManyToManyField:多对多
+OneToOneField:一对一
+'''
+
+# 11.类属性大全
+'''
+null:空值
+blank:空值(类似空字符串的形式)
+db_column:字段名
+db_index:创建索引
+default:默认值 (这个默认值并不会转换成sql,会在你添加实例时默认给你加上)
+primary_key:主键
+unique:唯一键
+'''
+
+# 12.更改表名/排序
+'''
+在ORM的类对象里增加基类
+class Meta:
+    db_table = 'student'
+    ordering = []
+student为自定义类名
+'''
+
+# 13.筛选
+'''
+filter:符合条件的数据；exclude:不符合条件的数据 -> 可连用
+student.objects.filter(条件)
+student.objects.exclude(条件)
+'''
 
 class Template:
     '''模板语言'''
@@ -90,19 +147,12 @@ class Template:
 render:先加载(读取)模板html->对模板语言(python编译)->最后HttpResponse返回
 '''
 
-# 4.Django外键
+# Django流程:
 '''
-当外键是一对一时，必须添加on_delete，外键参考
-Aid = models.ForeignKey('一个外键类(外键表)', on_delete=models.CASCADE)
-外键(Aid)传入值的时候需要传入外键所在表的实例
-'''
-
-# 5.外键正反向查询
-'''
-假设Student外键是Class
-obj = Student.objects.get(name='kira')->都要先获得实例(字段)
-正向查询:
-obj.ForeignKey(字段).(class对应的某个字段)
-反向查询:
-obj.student_set.all()
+1.创建项目: django-admin startproject mysite
+2.创建应用程序:python manage.py startapp App
+3.创建路由与对应的回应->修改urls和views
+4.建立与数据库的连接->修改settings的database
+5.建立模型(ORM)
+6.对数据库进行关联->迁移(python manage.py makemigrations/python manage.py migrate)
 '''
