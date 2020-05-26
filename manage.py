@@ -20,3 +20,5 @@ def main():
 if __name__ == '__main__':
     main()
     '''python manage.py runserver'''
+
+# 任务: 创建外键以及正反向查询练习
