@@ -45,3 +45,9 @@ Alt + Enter
 '''
 shift+f6
 '''
+
+# 9.快速生成return
+'''
+HttpResponse().return -> return HttpResponse()
+.return可以自动生成
+'''

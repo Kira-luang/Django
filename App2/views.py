@@ -2,7 +2,7 @@ from django.shortcuts import render, HttpResponse
 
 
 # Create your views here.
-from App2.models import Student
+from App2.models import Student, Class
 
 
 def response(request):
@@ -34,3 +34,9 @@ def dele_student(request):
     obj.delete()
     obj.save()
     return HttpResponse('删除成功')
+
+
+def add_class(request):
+    entity = Class.add_class()
+    entity.save()
+    return render(request, 'add_class.html', {'body': '成功添加'})

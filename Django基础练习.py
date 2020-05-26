@@ -36,6 +36,7 @@ tests.py:代码测试模块
 settings.py:配置模块
 '''
 
+
 class Model:
     '''主要针对数据库，也就是Model模块'''
 
@@ -99,8 +100,8 @@ OneToOneField:一对一
 
 # 11.类属性大全
 '''
-null:空值
-blank:空值(类似空字符串的形式)
+null:空值 -> 数据库展现的是NULL
+blank:空值(类似空字符串的形式) -> 数据库展现的是空
 db_column:字段名
 db_index:创建索引
 default:默认值 (这个默认值并不会转换成sql,会在你添加实例时默认给你加上)
@@ -123,6 +124,9 @@ filter:符合条件的数据；exclude:不符合条件的数据 -> 可连用
 student.objects.filter(条件)
 student.objects.exclude(条件)
 '''
+
+'''多个数据组合成的并不是列表,而是一个Queryset'''
+
 
 class Template:
     '''模板语言'''
