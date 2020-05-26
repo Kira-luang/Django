@@ -93,9 +93,8 @@ render:先加载(读取)模板html->对模板语言(python编译)->最后HttpRes
 # 4.Django外键
 '''
 当外键是一对一时，必须添加on_delete，外键参考
-Aid = models.ForeignKey('一个外键类(外键表)', on_delete=models.CASCADE, related_name=relation)
+Aid = models.ForeignKey('一个外键类(外键表)', on_delete=models.CASCADE)
 外键(Aid)传入值的时候需要传入外键所在表的实例
-related_name外键class可通过其得到相对应的实例
 '''
 
 # 5.外键正反向查询
@@ -105,12 +104,5 @@ obj = Student.objects.get(name='kira')->都要先获得实例(字段)
 正向查询:
 obj.ForeignKey(字段).(class对应的某个字段)
 反向查询:
-obj.related_name.all()->related_name定义外键时的一个参数
-'''
-
-# 6.Django全过程记录
-'''
-安装:pip install Django==1.11(某个版本)
-创建项目:django-admin startproject XXX(项目名字)
-启动应用:python manage.py startapp App(文件名可变)
+obj.student_set.all()
 '''
