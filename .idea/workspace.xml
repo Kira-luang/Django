@@ -81,8 +81,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/本章小结.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="184">
+              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+              <folding>
+                <element signature="e#104#112#1" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,7 +109,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="p15" />
+        <entry key="$PROJECT_DIR$" value="p16" />
       </map>
     </option>
   </component>
@@ -306,7 +309,7 @@
       <workItem from="1590440389768" duration="6710000" />
       <workItem from="1590504520918" duration="8910000" />
       <workItem from="1590575468030" duration="596000" />
-      <workItem from="1590584556353" duration="2086000" />
+      <workItem from="1590584556353" duration="3926000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1590417580926</created>
@@ -350,11 +353,18 @@
       <option name="project" value="LOCAL" />
       <updated>1590534883093</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="数据筛选排序，记录转换成字典(用来转成json格式与前端交互)，完成项目调试记得关闭">
+      <created>1590586880652</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590586880652</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39085000" />
+    <option name="totallyTimeSpent" value="40925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -364,9 +374,9 @@
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4977307" weight="0.32786885" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50226927" side_tool="true" weight="0.32786885" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5015129" side_tool="true" weight="0.32786885" />
       <window_info anchor="bottom" id="Database Changes" order="3" weight="0.3295082" />
-      <window_info anchor="bottom" id="Version Control" order="4" visible="true" weight="0.32786885" />
+      <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.49848714" visible="true" weight="0.32786885" />
       <window_info anchor="bottom" id="调试" order="5" />
       <window_info anchor="bottom" id="Python Console" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Message" order="7" />
@@ -460,7 +470,9 @@
     <MESSAGE value="ForeignKey的建立，以及基于外键正反向查询，外键查询抛异常，暂时没解决" />
     <MESSAGE value="一波理论知识,直接到p14,内容:Django的Field类型；参数含义；定义表名和表的排序" />
     <MESSAGE value="在改变表格的情况下，为记录添加默认属性" />
-    <option name="LAST_COMMIT_MESSAGE" value="在改变表格的情况下，为记录添加默认属性" />
+    <MESSAGE value="数据筛选排序，记录转换成字典(用来转成json格式与前端交互)，完成项目调试记得关闭" />
+    <MESSAGE value="转换成sql的limit,offset.以及render中的context作用" />
+    <option name="LAST_COMMIT_MESSAGE" value="转换成sql的limit,offset.以及render中的context作用" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -668,8 +680,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/本章小结.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="184">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="e#104#112#1" />
+          </folding>
         </state>
       </provider>
     </entry>

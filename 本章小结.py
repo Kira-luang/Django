@@ -1,14 +1,14 @@
-# 1.QuerySet排序
+# 1.sql的limit和offset的映射
 '''
-order.by('参数')
-'''
-
-# 2.把QuerySet转变成字典(前端交互时json.dumps用)
-'''
-QuerySet.values()-> 把搜索出来的Query集的每一个记录的变成字典
+Queryset[1: 5]-> 获取从第1到第5索引的数据
+limit=4 -> 获取四条数据
+offset=1 -> 也就是第二条数据
+默认offset是0
 '''
 
-# 3.项目结束收尾必做工作
+# 2.render的context参数作用
 '''
-settings.py的 DUBUG=False
+以后都这样写，避免遗忘
+自动创建一个字典，context={'a': 1}
+render(request, context=context)
 '''
