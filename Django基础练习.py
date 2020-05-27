@@ -109,7 +109,7 @@ primary_key:主键
 unique:唯一键
 '''
 
-# 12.更改表名/排序
+# 12.更改表名 & 排序
 '''
 在ORM的类对象里增加基类
 class Meta:
@@ -125,7 +125,7 @@ student.objects.filter(条件)
 student.objects.exclude(条件)
 '''
 
-# 13.查询条件
+# 14.查询条件
 '''
 __gt(大于),__lt(小于)
 __gte(大于等于),__lte(小于等于)
@@ -135,6 +135,24 @@ __startswith(开头)，__endswith(结尾)
 忽略大小写:
 __icontains
 其他命令也是这含义
+'''
+
+# 15.预筛选(预设查询条件)
+'''
+已知objects的来历,那么只需要用任意一个属性test=models.Manager()
+这个objects隐藏属性就不会再被添加,所以只能通过class.test.属性来访问属性
+
+定义一个Manager类
+class Manager(models.Manager):
+    def get_queryset(self):
+        return super().get_queryset().filter(girl__gt=10)
+在class Company显式添加属性管理
+objects = Manager()
+
+实例解说:
+compar = Company.objects.filter(boy__lt=F('girl') - 5)
+Company.objects会先筛选出girl__gt=10的Queryset
+然后再对这个Queryset再进行filter
 '''
 
 '''多个数据组合成的并不是列表,而是一个Queryset'''

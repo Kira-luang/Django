@@ -55,7 +55,7 @@ def compare(request):
 
 
 def select(request):
-    x = Company.objects.filter(~(Q(boy__gt=60) | Q(girl__gt=70)))
+    x = Company.manage.filter(~(Q(boy__gt=60) | Q(girl__gt=70)))
     for y in x:
         print(y.company)
     return HttpResponse('测试成功')
