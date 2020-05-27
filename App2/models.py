@@ -15,3 +15,12 @@ class Class(models.Model):
     @classmethod
     def add_class(cls, class_id=4, item='地理'):
         return cls(class_id=class_id, item=item)
+
+
+class Company(models.Model):
+    company = models.CharField(max_length=18, primary_key=True)
+    boy = models.IntegerField(default=10)
+    girl = models.IntegerField(default=5)
+
+    class Meta:
+        db_table = 'Company'
