@@ -125,6 +125,18 @@ student.objects.filter(条件)
 student.objects.exclude(条件)
 '''
 
+# 13.查询条件
+'''
+__gt(大于),__lt(小于)
+__gte(大于等于),__lte(小于等于)
+__in(在某个集合之中)
+__contains(包含，类似like)
+__startswith(开头)，__endswith(结尾)
+忽略大小写:
+__icontains
+其他命令也是这含义
+'''
+
 '''多个数据组合成的并不是列表,而是一个Queryset'''
 
 

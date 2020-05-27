@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <title>CheckStudent</title>
 </head>
-<body>
 {% for x in obj %}
     <li>{{ x.name }}</li>
+{% endfor %}
+<hr/>
+<h1>下面是全部的学生</h1>
+{% for y in all %}
+    <li>name: {{ y.name }}, age: {{ y.age }} id: {{ y.id }}</li>
 {% endfor %}
 </body>
 </html>

@@ -25,8 +25,10 @@ def update_student(request):
 
 
 def check_student(request):
-    obj = Student.objects.all()
-    return render(request, 'checkstudent.html', {'obj': obj})
+    obj = Student.objects.filter(age__lt=24).order_by('id')[1:3]
+    all_student = Student.objects.all()
+    context = {'obj': obj, 'all': all_student}
+    return render(request, 'checkstudent.html', context=context)
 
 
 def dele_student(request):
