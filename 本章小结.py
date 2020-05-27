@@ -1,8 +1,14 @@
-# 1.在改变表格的情况下，为记录添加默认属性
+# 1.QuerySet排序
 '''
-class Class:
-    @classmethod
-    def add_class(name=default):
-        return Class(name)
-views调用该类方法即可
+order.by('参数')
+'''
+
+# 2.把QuerySet转变成字典(前端交互时json.dumps用)
+'''
+QuerySet.values()-> 把搜索出来的Query集的每一个记录的变成字典
+'''
+
+# 3.项目结束收尾必做工作
+'''
+settings.py的 DUBUG=False
 '''
