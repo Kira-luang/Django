@@ -1,19 +1,15 @@
-# 模板的继承(重点)
+# 添加CSS或者JS文件时,需要在settings里添加
 '''
-在第一个模板中作用:挖坑,规划布局
-{% block xxx %}
-{% endblock %}
-在第二个继承模板中作用:填坑
-在第三个继承模板中作用:填坑+默认覆盖(可以选择super增量式操作)
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'), -> static是文件名
+]
 
-{{ block.super }}
+'''
 
-继承:
-{% extends base.html %}
-{% endextends %}
-
-调用其他html
-{% include head.html %} -> 把head.html的内容嵌入当前html页面
-
-Tip:能用block+extends就不要用include,include影响效率
+# 绝对路劲改相对路劲(静态资源)
+'''
+{% load static %} -> 加载初始目录
+href={% "static" 'css/xxx.css' %} -> 相对于static目录的路劲
+只能在debug里处理
 '''
