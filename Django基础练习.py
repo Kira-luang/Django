@@ -268,6 +268,20 @@ divisible by 2->能够被2整除,配合if使用(过滤器)
 Tip:能用block+extends就不要用include,include影响效率
 '''
 
+
+class Views:
+    pass
+
+
+# 1.获取URL路劲信息
+'''
+re_path('^p28/(\w+)/', views.p28) -> (\w+)能够获取匹配的URL,并作为参数会传入到p28函数中
+def p28(request, num):
+    print(num)
+    return HttpResponse('P28')
+p28这个函数需要接收2个参数
+'''
+
 # Django流程:
 '''
 1.创建项目: django-admin startproject mysite

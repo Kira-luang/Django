@@ -19,7 +19,7 @@ from App import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    re_path('^kira', views.response),
+    re_path('^kira/', views.response),
     path('', views.index),
-    re_path('^student', include('App2.url'))
+    re_path('^student/', include('App2.url'))
 ]

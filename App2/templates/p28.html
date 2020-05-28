@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>p28实操</title>
+</head>
+<body>
+{% for foo in entity %}
+    <li><a href="{{ foo.name }}">{{ foo.name }}</a></li>
+{% endfor %}
+</body>
+</html>
