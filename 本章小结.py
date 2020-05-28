@@ -1,14 +1,19 @@
-# 过滤器操作以及格式
+# 模板的继承(重点)
 '''
-格式: {{var | 过滤器}}
-{% x | divisible by 2 %}->"|"表示把x代入divisible by 2中
-divisible by 2->能够被2整除,配合if使用(过滤器)
+在第一个模板中作用:挖坑,规划布局
+{% block xxx %}
+{% endblock %}
+在第二个继承模板中作用:填坑
+在第三个继承模板中作用:填坑+默认覆盖(可以选择super增量式操作)
 
-加法:{{var |add:6}} -> 加6
-减法:{{var |add:-6}} -> 减6
-大写:{{var |upper}} -> 了解即可
-小写:{{var |lower}} -> 了解即可
-默认值:{{var |default value}} -> 了解即可
-函数传参:{{var |join"参数"}} -> 了解即可
-日期:{{var |data:'y-m-d'}} -> 了解即可
+{{ block.super }}
+
+继承:
+{% extends base.html %}
+{% endextends %}
+
+调用其他html
+{% include head.html %} -> 把head.html的内容嵌入当前html页面
+
+Tip:能用block+extends就不要用include,include影响效率
 '''
