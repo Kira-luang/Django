@@ -31,3 +31,45 @@ class Company(models.Model):
 
     class Meta:
         db_table = 'Company'
+
+
+class A(models.Model):
+    name = models.CharField(max_length=15)
+    Aid = models.IntegerField(auto_created=True, primary_key=True)
+    sex = models.NullBooleanField()
+    age = models.IntegerField(null=True)
+    classmate = models.IntegerField(null=True)
+
+    class Meta:
+        db_table = 'A'
+
+
+class B(models.Model):
+    id = models.IntegerField(auto_created=True, primary_key=True)
+    Aid = models.ForeignKey('A', on_delete=models.CASCADE)
+    item = models.CharField(max_length=15)
+    score = models.IntegerField(null=True)
+
+    class Meta:
+        db_table = 'B'
+
+
+class C(models.Model):
+    name = models.CharField(max_length=15)
+    sex = models.NullBooleanField()
+    age = models.IntegerField(null=True)
+
+    class Meta:
+        db_table = 'C'
+
+
+class SuperStudent(models.Model):
+    name = models.CharField(max_length=50, null=False)
+    age = models.IntegerField(default=1)
+    item = models.CharField(max_length=15, null=False)
+    score = models.IntegerField(null=True)
+    sex = models.NullBooleanField()
+
+    class Meta:
+        db_table = 'Text'
+        unique_together = ('name', 'item')

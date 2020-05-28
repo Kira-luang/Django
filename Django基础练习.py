@@ -109,12 +109,13 @@ primary_key:主键
 unique:唯一键
 '''
 
-# 12.更改表名 & 排序
+# 12.基类Meta的作用:更改表名 & 排序 & 实现联合键
 '''
 在ORM的类对象里增加基类
 class Meta:
-    db_table = 'student'
-    ordering = []
+    db_table = 'student' -> 更改表名
+    ordering = [] -> 排序
+    unique_together = () -> 实现联合键
 student为自定义类名
 '''
 
