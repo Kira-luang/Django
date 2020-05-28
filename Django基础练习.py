@@ -170,16 +170,67 @@ class Template:
 模板中:{{ name }}
 '''
 
-# 2.for循环
+# 2.for循环(简答应用)
 '''
 在调用函数返回值的HttpResponse中，增加参数。例如:name=[1, 3, 2]/{'a'=1, 'b'=2}
 模板中:{% for x in name %}
         {{ x }}
+       {% endfor %}
 '''
 
 # 3.render原理简单了解
 '''
 render:先加载(读取)模板html->对模板语言(python编译)->最后HttpResponse返回
+'''
+
+# 4.if使用
+'''
+{% if %}
+{% elif %}
+{% else %}
+{% end if %}
+'''
+
+# 5.点应用
+'''
+类似于python语法
+list1=[1, 3]
+{{ list1[1] }}
+dict1 = {'kira': 12}
+{{ dict1.kira }}
+student = Student()
+student.xx -> 实例属性
+'''
+
+# 6.for循环(进阶版)
+'''
+list1 = []
+{% for x in list1 %}
+    {{ forloop counter }}{{ x }} -> 循环次数计数
+    {% empty %} -> 当列表为空时便会执行
+    空列表
+{% endfor %}
+
+forloop.counter表示循环计数
+forloop.counter0从0开始计数
+forloop.revcounter倒数计数,直到1为止
+forloop.revcounter0倒数计数,直到0为止
+forloop.first如果当前循环是第一个就是True
+forloop.last如果当前循环是最后一个就是True
+'''
+
+# 7.隐藏注释
+'''
+{# 内容 #} -> 单行注释(快捷键control+/)
+多行注释:
+{% commend %}
+内容
+{% endcommend %}
+'''
+
+# 8.乘除算法(比较少用)
+'''
+{% widthratio xx 1 3 %} -> 1是分母,3是分子
 '''
 
 # Django流程:
@@ -190,4 +241,15 @@ render:先加载(读取)模板html->对模板语言(python编译)->最后HttpRes
 4.建立与数据库的连接->修改settings的database
 5.建立模型(ORM)
 6.对数据库进行关联->迁移(python manage.py makemigrations/python manage.py migrate)
+'''
+
+# 完成项目时配置文件必改项
+'''
+DEBUG=False -> 关闭调试
+ALLOWED_HOSTS = ['*'] -> 接受访问
+LANGUAGE_CODE = 'zh-hans' -> 修改为汉字
+TIME_ZONE = 'Asia/Shanghai' -> 修改成上海时间
+USE_TZ = False -> 时间机制不用Django的Time_Zone
+DATABASES = 你的Mysql配置(具体参考空间)
+pymysql的伪装->在当前文件夹的init上伪装
 '''

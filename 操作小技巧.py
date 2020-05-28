@@ -51,3 +51,8 @@ shift+f6
 HttpResponse().return -> return HttpResponse()
 .return可以自动生成
 '''
+
+# 10.快速移动代码
+'''
+shift+ alt + 上/下箭头
+'''

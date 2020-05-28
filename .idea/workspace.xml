@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b6460e5-081f-4b70-92fa-a0c432f599c2" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App2/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/App2/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django基础练习.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django基础练习.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/操作小技巧.py" beforeDir="false" afterPath="$PROJECT_DIR$/操作小技巧.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/本章小结.py" beforeDir="false" afterPath="$PROJECT_DIR$/本章小结.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,16 +46,13 @@
     </expand>
     <select />
   </component>
-  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
-    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App2/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="50" selection-end-column="15" />
+            <state relative-caret-position="-503">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -61,13 +60,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Django基础练习.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="115" column="32" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
+            <state relative-caret-position="289">
+              <caret line="233" column="3" lean-forward="true" selection-start-line="185" selection-end-line="233" selection-end-column="3" />
               <folding>
                 <element signature="e#20#219#1" />
                 <element signature="e#234#382#1" />
                 <element signature="e#395#587#1" />
                 <element signature="e#600#800#1" />
+                <element signature="e#3214#3222#1" />
+                <element signature="e#3296#3304#1" />
+                <element signature="e#3442#3450#1" />
+                <element signature="e#3751#3759#1" />
               </folding>
             </state>
           </provider>
@@ -76,8 +79,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/本章小结.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="144">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#9#60#1" />
+                <element signature="e#70#194#1" />
+                <element signature="e#211#509#1" />
+                <element signature="e#520#598#1" />
+                <element signature="e#615#659#1" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,7 +111,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="p19" />
+        <entry key="$PROJECT_DIR$" value="p20" />
       </map>
     </option>
   </component>
@@ -112,18 +122,18 @@
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/Django练习/__init__.py" />
         <option value="$PROJECT_DIR$/App/models.py" />
-        <option value="$PROJECT_DIR$/操作小技巧.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/console.sql" />
         <option value="$PROJECT_DIR$/Django练习/settings.py" />
         <option value="$PROJECT_DIR$/App2/templates/add_class.html" />
         <option value="$PROJECT_DIR$/App2/templates/checkstudent.html" />
         <option value="$PROJECT_DIR$/App2/migrations/0001_initial.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/App2/url.py" />
         <option value="$PROJECT_DIR$/App2/views.py" />
-        <option value="$PROJECT_DIR$/App2/__init__.py" />
-        <option value="$PROJECT_DIR$/Django基础练习.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/App2/models.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/console.sql" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/操作小技巧.py" />
+        <option value="$PROJECT_DIR$/Django基础练习.py" />
         <option value="$PROJECT_DIR$/本章小结.py" />
       </list>
     </option>
@@ -142,18 +152,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Django-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django-" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,7 +161,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/App2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
@@ -283,10 +283,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.manage" />
         <item itemvalue="Python.Django基础练习" />
+        <item itemvalue="Python.manage" />
         <item itemvalue="Python.models" />
-        <item itemvalue="Python.models" />
+        <item itemvalue="Python.Django基础练习" />
+        <item itemvalue="Python.manage" />
       </list>
     </recent_temporary>
   </component>
@@ -306,8 +307,6 @@
       <workItem from="1590575468030" duration="596000" />
       <workItem from="1590584556353" duration="4191000" />
       <workItem from="1590593789586" duration="21369000" />
-      <workItem from="1590653507660" duration="336000" />
-      <workItem from="1590659945310" duration="7800000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1590417580926</created>
@@ -383,11 +382,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70695000" />
+    <option name="totallyTimeSpent" value="68147000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.27458397" />
@@ -402,7 +400,7 @@
       <window_info anchor="bottom" id="Python Console" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32786885" />
-      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49924356" weight="0.32786885" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49924356" visible="true" weight="0.32786885" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -495,7 +493,8 @@
     <MESSAGE value="转换成sql的limit,offset.以及render中的context作用" />
     <MESSAGE value="Django时间属性查询的坑,懒查询含义以及查询条件介绍" />
     <MESSAGE value="Django:聚合函数；对比同一个记录的不同字段；and,or,not的应用" />
-    <option name="LAST_COMMIT_MESSAGE" value="Django:聚合函数；对比同一个记录的不同字段；and,or,not的应用" />
+    <MESSAGE value="Django不存在联合主键,需要变成联合唯一键+不能为空的限制" />
+    <option name="LAST_COMMIT_MESSAGE" value="Django不存在联合主键,需要变成联合唯一键+不能为空的限制" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -507,6 +506,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/App2/migrations/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/python/Lib/site-packages/django/db/models/fields/related.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="781" column="8" selection-start-line="781" selection-start-column="8" selection-end-line="781" selection-end-column="8" />
+        </state>
+      </provider>
     </entry>
     <entry file="das://b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/schema/main/table/App2_student.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -540,6 +546,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/python/Lib/site-packages/django/db/models/fields/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="135" column="40" selection-start-line="135" selection-start-column="34" selection-end-line="135" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/App/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -547,10 +560,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django练习/__init__.py">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -564,18 +577,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App2/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/操作小技巧.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#17#55#1" />
-            <element signature="e#68#140#1" />
-            <element signature="e#305#358#1" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Django练习/urls.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -594,13 +595,6 @@
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django练习/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="117" column="13" lean-forward="true" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -654,6 +648,15 @@
         <state relative-caret-position="-138" />
       </provider>
     </entry>
+    <entry file="das://b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/schema/main/table/App2_student">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="a04ffa6b-73c5-4b04-bf18-cfee02dde89c">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
     <entry file="das://b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/schema/main/table/App2_class">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="a04ffa6b-73c5-4b04-bf18-cfee02dde89c">
@@ -663,7 +666,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/schema/main/table/App2_company">
+    <entry file="das://b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/schema/main/table/App2_company" />
+    <entry file="das://b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/schema/main/table/django_migrations">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="a04ffa6b-73c5-4b04-bf18-cfee02dde89c">
           <filtering>
@@ -689,9 +693,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/schema/main/table/Company">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="a04ffa6b-73c5-4b04-bf18-cfee02dde89c">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/App2/url.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="207">
           <caret line="9" column="46" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="46" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
@@ -701,132 +714,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App2/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="176">
+          <caret line="50" column="4" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/python/Lib/site-packages/django/db/models/deletion.py">
+    <entry file="file://$PROJECT_DIR$/Django练习/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="199">
+          <caret line="117" selection-start-line="117" selection-end-line="118" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/python/Lib/site-packages/django/db/models/fields/related.py">
+    <entry file="file://$PROJECT_DIR$/Django练习/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="1078" column="26" selection-start-line="1078" selection-start-column="26" selection-end-line="1078" selection-end-column="26" />
+        <state relative-caret-position="36">
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="das://b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/schema/main/table/Company">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="26f7d52c-1ef6-4b3c-a803-2f17de3788f3">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/schema/main/table/C">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="26f7d52c-1ef6-4b3c-a803-2f17de3788f3">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/schema/main/table/App2_student">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="26f7d52c-1ef6-4b3c-a803-2f17de3788f3">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/python/Lib/site-packages/django/db/models/base.py">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="402" column="6" selection-start-line="402" selection-start-column="6" selection-end-line="402" selection-end-column="6" />
+        <state relative-caret-position="91">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/python/Lib/site-packages/django/db/models/fields/__init__.py">
+    <entry file="file://$PROJECT_DIR$/App2/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4668">
-          <caret line="152" column="30" lean-forward="true" selection-start-line="151" selection-start-column="18" selection-end-line="152" selection-end-column="30" />
+        <state relative-caret-position="-503">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作小技巧.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#17#55#1" />
+            <element signature="e#68#140#1" />
+            <element signature="e#305#358#1" />
+            <element signature="e#488#496#1" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Django基础练习.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="115" column="32" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
+        <state relative-caret-position="289">
+          <caret line="233" column="3" lean-forward="true" selection-start-line="185" selection-end-line="233" selection-end-column="3" />
           <folding>
             <element signature="e#20#219#1" />
             <element signature="e#234#382#1" />
             <element signature="e#395#587#1" />
             <element signature="e#600#800#1" />
+            <element signature="e#3214#3222#1" />
+            <element signature="e#3296#3304#1" />
+            <element signature="e#3442#3450#1" />
+            <element signature="e#3751#3759#1" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/schema/main/table/django_migrations">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="26f7d52c-1ef6-4b3c-a803-2f17de3788f3">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/schema/main/table/B">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="26f7d52c-1ef6-4b3c-a803-2f17de3788f3">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/schema/main/table/A">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="26f7d52c-1ef6-4b3c-a803-2f17de3788f3">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/schema/main/table/Text">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="26f7d52c-1ef6-4b3c-a803-2f17de3788f3">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App2/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="50" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/本章小结.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="144">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#9#60#1" />
+            <element signature="e#70#194#1" />
+            <element signature="e#211#509#1" />
+            <element signature="e#520#598#1" />
+            <element signature="e#615#659#1" />
+          </folding>
         </state>
       </provider>
     </entry>
