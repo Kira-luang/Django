@@ -3,7 +3,7 @@ from django.shortcuts import render, HttpResponse
 
 
 # Create your views here.
-from App2.models import Student, Class, Company
+from App2.models import Student, Class, Company, A
 
 
 def response(request):
@@ -59,3 +59,8 @@ def select(request):
     for y in x:
         print(y.company)
     return HttpResponse('测试成功')
+
+
+def p21(request):
+    context = {'class': A}
+    return render(request, 'p21.html', context=context)

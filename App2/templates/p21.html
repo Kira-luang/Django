@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>P21</title>
+</head>
+<body>
+{% for x in class.p21 %}
+    {% if x.age < 30 %}
+        <li>{{ x.name }}: {% widthratio x.age 1 2 %}</li>
+    {% elif x.age == 30 %}
+        <li>{{ x.name }}的年龄是:{{ x.age }}</li>
+    {% else %}
+        <li>{{ x.name }}: {{ x.age }}</li>
+    {% endif %}
+{% endfor %}
+
+</body>
+</html>

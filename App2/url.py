@@ -11,4 +11,5 @@ urlpatterns = [
     re_path('addclass/', views.add_class),
     re_path('companycp/', views.compare),
     re_path('select/', views.select),
+    re_path('p21/', views.p21),
 ]

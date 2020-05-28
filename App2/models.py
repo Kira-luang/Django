@@ -43,6 +43,11 @@ class A(models.Model):
     class Meta:
         db_table = 'A'
 
+    @classmethod
+    def p21(cls):
+        total = A.objects.all()
+        return total
+
 
 class B(models.Model):
     id = models.IntegerField(auto_created=True, primary_key=True)
