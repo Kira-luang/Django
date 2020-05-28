@@ -1,49 +1,14 @@
-# 1.if使用
+# 过滤器操作以及格式
 '''
-{% if %}
-{% elif %}
-{% else %}
-{% end if %}
-'''
+格式: {{var | 过滤器}}
+{% x | divisible by 2 %}->"|"表示把x代入divisible by 2中
+divisible by 2->能够被2整除,配合if使用(过滤器)
 
-# 2.点应用
-'''
-类似于python语法
-list1=[1, 3]
-{{ list1[1] }}
-dict1 = {'kira': 12}
-{{ dict1.kira }}
-student = Student()
-student.xx -> 实例属性
-'''
-
-# 3.for循环(进阶版)
-'''
-list1 = []
-{% for x in list1 %}
-    {{ forloop counter }}{{ x }} -> 循环次数计数
-    {% empty %} -> 当列表为空时便会执行
-    空列表
-{% endfor %}
-
-forloop.counter表示循环计数
-forloop.counter0从0开始计数
-forloop.revcounter倒数计数,直到1为止
-forloop.revcounter0倒数计数,直到0为止
-forloop.first如果当前循环是第一个就是True
-forloop.last如果当前循环是最后一个就是True
-'''
-
-# 4.隐藏注释
-'''
-{# 内容 #} -> 单行注释(快捷键control+/)
-多行注释:
-{% commend %}
-内容
-{% endcommend %}
-'''
-
-# 5.乘除算法(比较少用)
-'''
-{% widthratio xx 1 3 %} -> 1是分母,3是分子
+加法:{{var |add:6}} -> 加6
+减法:{{var |add:-6}} -> 减6
+大写:{{var |upper}} -> 了解即可
+小写:{{var |lower}} -> 了解即可
+默认值:{{var |default value}} -> 了解即可
+函数传参:{{var |join"参数"}} -> 了解即可
+日期:{{var |data:'y-m-d'}} -> 了解即可
 '''
