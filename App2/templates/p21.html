@@ -11,7 +11,8 @@
     {% elif x.age == 30 %}
         <li>{{ x.name }}的年龄是:{{ x.age }}</li>
     {% else %}
-        <li>{{ x.name }}: {{ x.age }}</li>
+        {#   这里是p22修改的地方     #}
+        <li>{{ x.name|upper }}: {{ x.age|add:-100 }}</li>
     {% endif %}
 {% endfor %}
 
