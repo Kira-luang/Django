@@ -3,12 +3,13 @@ import random
 from django.db.models import Max, F, Q
 from django.http import JsonResponse
 from django.shortcuts import render, HttpResponse, HttpResponseRedirect
+import base64
 
 
 # Create your views here.
 from django.urls import reverse
 
-from App2.models import Student, Class, Company, A
+from App2.models import Student, Class, Company, A, C
 
 
 def response(request):
@@ -106,3 +107,32 @@ def p34_json(request):
         'zeno': 23,
     }
     return JsonResponse(data)
+
+
+def p35_register(request):
+    return render(request, 'p35register.html')
+
+
+def p35_show(request, entity):
+    context = {'user': entity}
+    rende = render(request, 'p35work.html', context=context)
+    name = base64.b64encode(entity.name.encode())
+    # rende.set_cookie('name', entity.name)
+    rende.set_signed_cookie('name', name, 'test')
+    # cookie = request.COOKIES.get('name')
+    cookie = request.get_signed_cookie('name', salt='test')
+    print(cookie, base64.b64decode(name).decode())
+    context['cookie'] = cookie
+    return rende
+
+
+def p35_work(request):
+    name = request.POST.get('username')  # 提交后,参数便会在POST里
+    if name is None:
+        return HttpResponse('格式错误')
+    try:
+        entity = C.objects.get(name=name)
+    except:
+        entity = C(name=name, age=18, sex=True)
+        entity.save()
+    return p35_show(request, entity)
