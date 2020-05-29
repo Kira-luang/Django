@@ -15,4 +15,7 @@ urlpatterns = [
     re_path('^p28/$', views.p28_main),
     re_path('^p28/(\w+)/', views.p28, name='p28'),
     re_path('p29/(?P<year>\w+)/(?P<mouth>\w+)/', views.p29, name='p29'),
+    re_path('p34/main', views.p34_main),
+    re_path('p34/GG', views.p34, name='GG'),
+    re_path('p34/json', views.p34_json, name='json'),
 ]

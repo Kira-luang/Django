@@ -1,15 +1,37 @@
-# 404,500,502页面设置
+# HttpResponse的子类:HttpResponseRedirect(302)
 '''
-在templates模板里创建html即可
+HttpResponseRedirect()的应用 -> redirect()是其短写
+可以实现服务器内部重定向
+def p30(request):
+    return HttpResponse('你被阻塞了')
+
+
+def p30_main(request):
+    if random.randint(1, 10) > 5:
+        return HttpResponseRedirect('/student/p30/GG') -> 硬编码
+    return HttpResponse('成功返回')
+
+可转换为:
+url = reverse('student:GG') -> 跟模板语法一样
+HttpResponseRedirect(url)
 '''
 
-# 前端输入post上传信息代码
+# json知识
 '''
-<form action={% url "路劲" %} method="post">
-    <span>username:</span> <input type="text" name="username" placeholder="please input your name">
-    <button>submit</button>
-</form>
+json的两种形式:
+JsonObject:
+最常见,key:value"{}"形式
+JsonArray
+以列表"[]"形式,可包含JsonObject
 
-action就是操作,method选择post,给用户提交
-input参数,type就是类型,name就是给传过来参数取名,placeholder是提示
+两者可嵌套
 '''
+
+# HttpResponse的子类:JsonResponse
+'''
+以json的形式返回 -> 用于前后端分离,Ajax
+
+return JsonResponse(data) data->是字典形式
+'''
+
+'''更多子类可以直接看源码,专门针对状态码,原理是修改HttpResponse的status_code属性,返回内容依然自定义'''

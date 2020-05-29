@@ -1,8 +1,13 @@
+import random
+
 from django.db.models import Max, F, Q
-from django.shortcuts import render, HttpResponse
+from django.http import JsonResponse
+from django.shortcuts import render, HttpResponse, HttpResponseRedirect
 
 
 # Create your views here.
+from django.urls import reverse
+
 from App2.models import Student, Class, Company, A
 
 
@@ -80,3 +85,24 @@ def p28(request, name):
 def p29(request, year, mouth):
     context = {'year': year, 'mouth': mouth}
     return render(request, 'p29.html', context=context)
+
+
+def p34(request):
+    Reponse = HttpResponse('你被阻塞了')
+    Reponse.status_code = 304
+    return Reponse
+
+
+def p34_main(request):
+    if random.randint(1, 10) > 5:
+        url = reverse('student:GG')
+        return HttpResponseRedirect('/student/p30/GG')  # 这是302状态
+    return HttpResponse('成功返回')
+
+
+def p34_json(request):
+    data = {
+        'kira': 24,
+        'zeno': 23,
+    }
+    return JsonResponse(data)

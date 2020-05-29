@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b6460e5-081f-4b70-92fa-a0c432f599c2" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App2/templates/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django基础练习.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django基础练习.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App2/templates/p29.html" beforeDir="false" afterPath="$PROJECT_DIR$/App2/templates/p29.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App2/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/App2/url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App2/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/App2/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/操作小技巧.py" beforeDir="false" afterPath="$PROJECT_DIR$/操作小技巧.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/本章小结.py" beforeDir="false" afterPath="$PROJECT_DIR$/本章小结.py" afterDir="false" />
     </list>
+    <list id="e333c167-0f5b-4ded-b3aa-5bc52b28c1dd" name="Revert &quot;追加p21-p24实际操作&quot;" comment="Revert &quot;追加p21-p24实际操作&quot;&#10;&#10;This reverts commit c16f6e2b" />
+    <list id="c4be1b32-6b35-43cb-b104-34463dedee0a" name="Revert: 追加实际操作" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,44 +52,50 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App2/models.py">
+        <entry file="file://$PROJECT_DIR$/App2/url.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-503">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Django基础练习.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="233" column="3" lean-forward="true" selection-start-line="185" selection-end-line="233" selection-end-column="3" />
+            <state relative-caret-position="198">
+              <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
               <folding>
-                <element signature="e#20#219#1" />
-                <element signature="e#234#382#1" />
-                <element signature="e#395#587#1" />
-                <element signature="e#600#800#1" />
-                <element signature="e#3214#3222#1" />
-                <element signature="e#3296#3304#1" />
-                <element signature="e#3442#3450#1" />
-                <element signature="e#3751#3759#1" />
+                <element signature="e#0#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App2/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/本章小结.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="162">
+              <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
               <folding>
-                <element signature="e#9#60#1" />
-                <element signature="e#70#194#1" />
-                <element signature="e#211#509#1" />
-                <element signature="e#520#598#1" />
-                <element signature="e#615#659#1" />
+                <element signature="e#3#12#1" />
+                <element signature="e#372#380#1" />
+                <element signature="e#394#402#1" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Django练习/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+              <folding>
+                <element signature="e#632#664#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,9 +120,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="p20" />
+        <entry key="$PROJECT_DIR$" value="p30" />
       </map>
     </option>
+    <option name="RESET_MODE" value="SOFT" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -122,19 +132,25 @@
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/Django练习/__init__.py" />
         <option value="$PROJECT_DIR$/App/models.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/console.sql" />
-        <option value="$PROJECT_DIR$/Django练习/settings.py" />
         <option value="$PROJECT_DIR$/App2/templates/add_class.html" />
         <option value="$PROJECT_DIR$/App2/templates/checkstudent.html" />
         <option value="$PROJECT_DIR$/App2/migrations/0001_initial.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/App2/url.py" />
-        <option value="$PROJECT_DIR$/App2/views.py" />
-        <option value="$PROJECT_DIR$/App2/models.py" />
+        <option value="$PROJECT_DIR$/App2/templates/p21.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/操作小技巧.py" />
+        <option value="$PROJECT_DIR$/App/views.py" />
         <option value="$PROJECT_DIR$/Django基础练习.py" />
+        <option value="$PROJECT_DIR$/App2/templates/p28.html" />
+        <option value="$PROJECT_DIR$/App2/models.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/Django练习/urls.py" />
+        <option value="$PROJECT_DIR$/App2/templates/404.html" />
+        <option value="$PROJECT_DIR$/Django练习/settings.py" />
+        <option value="$PROJECT_DIR$/App2/templates/p29.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/console.sql" />
+        <option value="$PROJECT_DIR$/操作小技巧.py" />
+        <option value="$PROJECT_DIR$/App2/url.py" />
         <option value="$PROJECT_DIR$/本章小结.py" />
+        <option value="$PROJECT_DIR$/App2/views.py" />
       </list>
     </option>
   </component>
@@ -152,8 +168,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Django-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django-" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django-" type="462c0819:PsiDirectoryNode" />
+              <item name="App2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,13 +192,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/App2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Django练习1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.26877472" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Pythonstudy\Django-\templates" />
+      <recent name="E:\Pythonstudy\Django-\App2\templates" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Pythonstudy\Django-\App2" />
     </key>
@@ -307,6 +342,9 @@
       <workItem from="1590575468030" duration="596000" />
       <workItem from="1590584556353" duration="4191000" />
       <workItem from="1590593789586" duration="21369000" />
+      <workItem from="1590742300321" duration="9833000" />
+      <workItem from="1590761848764" duration="4957000" />
+      <workItem from="1590773423656" duration="7126000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1590417580926</created>
@@ -378,29 +416,107 @@
       <option name="project" value="LOCAL" />
       <updated>1590612403168</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Revert &quot;追加p21-p24实际操作&quot;&#10;&#10;This reverts commit c16f6e2b">
+      <created>1590686668387</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1590686668387</updated>
+    </task>
+    <task id="LOCAL-00012" summary="追加刚刚的p21-p24实际操作">
+      <created>1590686772928</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1590686772928</updated>
+    </task>
+    <task id="LOCAL-00013" summary="追加P21-24实际操作">
+      <created>1590687616997</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1590687616997</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Django:过滤器以及使用示范">
+      <created>1590689187604</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1590689187604</updated>
+    </task>
+    <task id="LOCAL-00015" summary="被漏掉的小结">
+      <created>1590689291054</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1590689291054</updated>
+    </task>
+    <task id="LOCAL-00016" summary="模板的继承:block,extends,super,include。四大要素决定,鉴于如今前后端分离,重要性下降,但是要了解">
+      <created>1590691467555</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1590691467567</updated>
+    </task>
+    <task id="LOCAL-00017" summary="模板的静态文件CSS和JS处理">
+      <created>1590698377362</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1590698377374</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Django-Views:捕获URL信息,从而实现转到相对应的处理。&#10;额外提醒:创建外键时,一定要加related_name参数">
+      <created>1590706109098</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1590706109098</updated>
+    </task>
+    <task id="LOCAL-00019" summary="重传模板的静态文件CSS和JS处理">
+      <created>1590706534465</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1590706534466</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Django之Views:URL的反向解析(全)">
+      <created>1590754944019</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1590754944019</updated>
+    </task>
+    <task id="LOCAL-00021" summary="404,500和502页面的制作；前端接收传参到后台的代码">
+      <created>1590772309836</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1590772309836</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68147000" />
+    <option name="totallyTimeSpent" value="104577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.27458397" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2881997" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Repositories" order="3" show_stripe_button="false" weight="0.32980332" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4977307" weight="0.32786885" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5015129" side_tool="true" weight="0.32786885" />
       <window_info anchor="bottom" id="Database Changes" order="3" weight="0.3295082" />
-      <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.49848714" weight="0.3262295" />
+      <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.49848714" weight="0.32131147" />
       <window_info anchor="bottom" id="调试" order="5" />
       <window_info anchor="bottom" id="Python Console" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32786885" />
-      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49924356" visible="true" weight="0.32786885" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.49924356" visible="true" weight="0.32786885" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -494,7 +610,19 @@
     <MESSAGE value="Django时间属性查询的坑,懒查询含义以及查询条件介绍" />
     <MESSAGE value="Django:聚合函数；对比同一个记录的不同字段；and,or,not的应用" />
     <MESSAGE value="Django不存在联合主键,需要变成联合唯一键+不能为空的限制" />
-    <option name="LAST_COMMIT_MESSAGE" value="Django不存在联合主键,需要变成联合唯一键+不能为空的限制" />
+    <MESSAGE value="Revert &quot;追加p21-p24实际操作&quot;&#10;&#10;This reverts commit c16f6e2b" />
+    <MESSAGE value="追加刚刚的p21-p24实际操作" />
+    <MESSAGE value="Revert &quot;追加实际操作&quot;&#10;&#10;This reverts commit adbe9db5" />
+    <MESSAGE value="追加P21-24实际操作" />
+    <MESSAGE value="Django:过滤器以及使用示范" />
+    <MESSAGE value="被漏掉的小结" />
+    <MESSAGE value="模板的继承:block,extends,super,include。四大要素决定,鉴于如今前后端分离,重要性下降,但是要了解" />
+    <MESSAGE value="模板的静态文件CSS和JS处理" />
+    <MESSAGE value="Django-Views:捕获URL信息,从而实现转到相对应的处理。&#10;额外提醒:创建外键时,一定要加related_name参数" />
+    <MESSAGE value="重传模板的静态文件CSS和JS处理" />
+    <MESSAGE value="Django之Views:URL的反向解析(全)" />
+    <MESSAGE value="404,500和502页面的制作；前端接收传参到后台的代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="404,500和502页面的制作；前端接收传参到后台的代码" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -560,41 +688,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App2/templates/index.html" />
     <entry file="file://$PROJECT_DIR$/App2/templates/add_class.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App2/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django练习/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="e#632#664#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -648,24 +745,6 @@
         <state relative-caret-position="-138" />
       </provider>
     </entry>
-    <entry file="das://b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/schema/main/table/App2_student">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="a04ffa6b-73c5-4b04-bf18-cfee02dde89c">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/schema/main/table/App2_class">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="a04ffa6b-73c5-4b04-bf18-cfee02dde89c">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/schema/main/table/App2_company" />
     <entry file="das://b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/schema/main/table/django_migrations">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -673,16 +752,6 @@
           <filtering>
             <filter text="" />
           </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="e#84#93#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -702,10 +771,252 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Django练习/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App2/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-466">
+          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App2/templates/p21.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/schema/main/table/App2_class">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="26f7d52c-1ef6-4b3c-a803-2f17de3788f3">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App2/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App2/templates/p28.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python/Lib/site-packages/django/urls/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/schema/main/table/App2_student">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="b2b18a78-bdfc-458a-a55e-fe637bb77ed2">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App2/templates/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App2/templates/p29.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/schema/main/table/C.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/schema/main/table/C">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="c489eb24-767b-46ea-9e32-0cf15a2db9c1">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/schema/main/table/A">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="c489eb24-767b-46ea-9e32-0cf15a2db9c1">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/schema/main/table/B">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="c489eb24-767b-46ea-9e32-0cf15a2db9c1">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/schema/main/table/Text">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="c489eb24-767b-46ea-9e32-0cf15a2db9c1">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b51ae7c1-cdc3-44d5-86cf-c6e87e67ac75/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App2/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作小技巧.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding>
+            <element signature="e#17#55#1" />
+            <element signature="e#68#140#1" />
+            <element signature="e#305#358#1" />
+            <element signature="e#488#514#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="e#84#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django基础练习.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="280" column="14" lean-forward="true" selection-start-line="280" selection-start-column="14" selection-end-line="280" selection-end-column="14" />
+          <folding>
+            <element signature="e#20#219#1" />
+            <element signature="e#234#382#1" />
+            <element signature="e#395#587#1" />
+            <element signature="e#600#800#1" />
+            <element signature="e#860#987#1" />
+            <element signature="e#1005#1086#1" />
+            <element signature="e#1102#1197#1" />
+            <element signature="e#1213#1241#1" />
+            <element signature="e#1256#1381#1" />
+            <element signature="e#1395#1540#1" />
+            <element signature="e#1562#1809#1" />
+            <element signature="e#1822#1982#1" />
+            <element signature="e#2017#2155#1" />
+            <element signature="e#2165#2266#1" />
+            <element signature="e#2278#2424#1" />
+            <element signature="e#2443#2844#1" />
+            <element signature="e#2936#3001#1" />
+            <element signature="e#3019#3147#1" />
+            <element signature="e#3166#3229#1" />
+            <element signature="e#3240#3291#1" />
+            <element signature="e#3301#3425#1" />
+            <element signature="e#3442#3740#1" />
+            <element signature="e#3751#3829#1" />
+            <element signature="e#3846#3890#1" />
+            <element signature="e#3900#4212#1" />
+            <element signature="e#4229#4506#1" />
+            <element signature="e#4520#4752#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django练习/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python/Lib/site-packages/django/http/response.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="35" column="15" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django练习/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/本章小结.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+          <folding>
+            <element signature="e#3#12#1" />
+            <element signature="e#372#380#1" />
+            <element signature="e#394#402#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/App2/url.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="46" />
+        <state relative-caret-position="198">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
@@ -714,82 +1025,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App2/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="50" column="4" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="58" />
+        <state relative-caret-position="270">
+          <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django练习/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="117" selection-start-line="117" selection-end-line="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django练习/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App2/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-503">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/操作小技巧.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="e#17#55#1" />
-            <element signature="e#68#140#1" />
-            <element signature="e#305#358#1" />
-            <element signature="e#488#496#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django基础练习.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="233" column="3" lean-forward="true" selection-start-line="185" selection-end-line="233" selection-end-column="3" />
-          <folding>
-            <element signature="e#20#219#1" />
-            <element signature="e#234#382#1" />
-            <element signature="e#395#587#1" />
-            <element signature="e#600#800#1" />
-            <element signature="e#3214#3222#1" />
-            <element signature="e#3296#3304#1" />
-            <element signature="e#3442#3450#1" />
-            <element signature="e#3751#3759#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/本章小结.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#9#60#1" />
-            <element signature="e#70#194#1" />
-            <element signature="e#211#509#1" />
-            <element signature="e#520#598#1" />
-            <element signature="e#615#659#1" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
