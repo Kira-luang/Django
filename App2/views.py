@@ -63,4 +63,20 @@ def select(request):
 
 def p21(request):
     context = {'class': A}
+    print(request.path)
     return render(request, 'p21.html', context=context)
+
+
+def p28_main(request):
+    entity = Student.objects.all()
+    return render(request, 'p28.html', context=locals())
+
+
+def p28(request, name):
+    entity = Student.objects.get(name=name)
+    return HttpResponse('Hello {} your item is {}'.format(name, entity.id.item))
+
+
+def p29(request, year, mouth):
+    context = {'year': year, 'mouth': mouth}
+    return render(request, 'p29.html', context=context)
