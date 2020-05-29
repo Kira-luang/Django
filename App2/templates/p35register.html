@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register User</title>
+</head>
+<body>
+{% comment %}input参数后,将会以POST形式请求url,参数也会以username为名字保存在POST里{% endcomment %}
+<form action="{% url 'student:work' %}" method="post">
+    <span>your username:</span><input type="text" name="username" placeholder="please input your name">
+    <button>submit</button>
+</form>
+</body>
+</html>
