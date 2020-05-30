@@ -129,10 +129,16 @@ def p35_show(request, entity):
 def p35_work(request):
     name = request.POST.get('username')  # 提交后,参数便会在POST里
     if name is None:
-        return HttpResponse('格式错误')
+        return HttpResponseRedirect(reverse('student:register'))
     try:
         entity = C.objects.get(name=name)
     except:
         entity = C(name=name, age=18, sex=True)
         entity.save()
     return p35_show(request, entity)
+
+
+def p36_logout(request):
+    response = HttpResponseRedirect(reverse('student:register'))
+    response.delete_cookie('name')
+    return response

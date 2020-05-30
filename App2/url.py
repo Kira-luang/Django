@@ -20,4 +20,5 @@ urlpatterns = [
     re_path('p34/json', views.p34_json, name='json'),
     re_path('p35/register', views.p35_register, name='register'),
     re_path('p35/work', views.p35_work, name='work'),
+    re_path('p36/logout', views.p36_logout, name='logout'),
 ]
